@@ -1,0 +1,730 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		C9B72207AC7043AC844DF0A9 /* ZERO_CHECK */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = D0A2CE7054C548AE840F3BB4 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */;
+			buildPhases = (
+				F35674CBBE6E46AC8A9C6AA8 /* CMake Rules */,
+			);
+			dependencies = (
+			);
+			name = ZERO_CHECK;
+			productName = ZERO_CHECK;
+		};
+		F94F7EF48A664AA386B39766 /* ALL_BUILD */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 45D7F465879A474EBC82C193 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */;
+			buildPhases = (
+				E74A19FC7FA6409F9AE3DB17 /* CMake Rules */,
+			);
+			dependencies = (
+				1678611BB7FE41B2BBF15273 /* PBXTargetDependency */,
+				9065A8986E0C4B27A8F8F9B5 /* PBXTargetDependency */,
+			);
+			name = ALL_BUILD;
+			productName = ALL_BUILD;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		00B38BBA14944DC48BAFC1AB /* explosion.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9642CDAE590841C9AC9456C5 /* explosion.cpp */; };
+		0D1ACAC4D4184903913F1996 /* terraincollider.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D58676515ACE471182CD2785 /* terraincollider.cpp */; };
+		321B89FA517E4A0197F79FBB /* rocket.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 165DB999C93B48ABAB1E2D76 /* rocket.cpp */; };
+		33137591327740F39634DEE0 /* terrain.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F05ACEA816D440ED9B6110DA /* terrain.cpp */; };
+		55DD1215052C4F2898C71723 /* example.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 71B0C5E889FA47FDB7BB8DF7 /* example.cpp */; };
+		7E4088C20B8649459A8B0043 /* freetypefont.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0434D407CB0246C39CD80858 /* freetypefont.cpp */; };
+		812A116578514A1A93E14EE7 /* gameworld.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 133552E01B8742CE94EE85C2 /* gameworld.cpp */; };
+		880ACBD04FFC4B899C4FDE59 /* spherecollider.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A6D6CD9930284E8FB8330E44 /* spherecollider.cpp */; };
+		AAEB7AB00B684ED89B6D6CEB /* enemy.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D33E3B45ED63496DB525A5B0 /* enemy.cpp */; };
+		AE9F553A5BDE41BFA92AC462 /* collider.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A0EBD8505AFD4AD09A342FD9 /* collider.cpp */; };
+		B67B601A669B41D8A83B9381 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 719D83B4FAE14EA6AD46CA0D /* main.cpp */; };
+		C4ACC89C8FF441AE91422E16 /* player.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4BB7D08A4B71447681608A73 /* player.cpp */; };
+		C9EEF84617A44CBB9928BF39 /* entity.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 77FA2144D51746FAAC5E02B7 /* entity.cpp */; };
+		CD46775CD6374EAD89341C57 /* landscape.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 09F8B47C3DCF4453AF4834C6 /* landscape.cpp */; };
+		D2BDE7B58DED469BB8E75C7F /* tree.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 79A9540FFA514D50B2F4065B /* tree.cpp */; };
+		E0AB5B81E8F04C218F9BA439 /* md2model.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8AD2CFB37ED747D19732373C /* md2model.cpp */; };
+		E32627C78B8447039A266C96 /* ogro.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CEA6AFBCE047429AB768CA0D /* ogro.cpp */; };
+		E48E7BE62543E62D0094B66D /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E48E7BE52543E62D0094B66D /* QuartzCore.framework */; };
+		E48E7BE82543E6380094B66D /* IOKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E48E7BE72543E6380094B66D /* IOKit.framework */; };
+		E48E7BEA2543E6410094B66D /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E48E7BE92543E6410094B66D /* Cocoa.framework */; };
+		E48E7BEC2543E64D0094B66D /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E48E7BEB2543E64D0094B66D /* OpenGL.framework */; };
+		E48E7BEE2543E6820094B66D /* libglfw3.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E48E7BED2543E6820094B66D /* libglfw3.a */; };
+		E48E7BF02543E6A30094B66D /* glew.c in Sources */ = {isa = PBXBuildFile; fileRef = E48E7BEF2543E6A30094B66D /* glew.c */; };
+		E48E7BF125453D7E0094B66D /* glxwindow.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CED8AC10377B470D8756399F /* glxwindow.cpp */; };
+		E4DE154CC45C45F8973DA08F /* camera.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9C18B4169D014E808CF74454 /* camera.cpp */; };
+		F20CE296A23A4DC08BC11CBE /* targa.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6B57672BA3484964B2ADE338 /* targa.cpp */; };
+		F6EFA42F7DFC4DCAB9BC9AFF /* frustum.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9954180E92D44689B0605DD1 /* frustum.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		92E9C14D3B694117A5758A65 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AC620C838CE4483ABB64786E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C9B72207AC7043AC844DF0A9;
+			remoteInfo = ZERO_CHECK;
+		};
+		95F1AAD08F2947EC92F1A131 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AC620C838CE4483ABB64786E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C9B72207AC7043AC844DF0A9;
+			remoteInfo = ZERO_CHECK;
+		};
+		F758D4FEAD8848D5A07623D1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AC620C838CE4483ABB64786E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B5B9645C8A4947F384CDCAE7;
+			remoteInfo = ogro_invasion;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0434D407CB0246C39CD80858 /* freetypefont.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = freetypefont.cpp; path = src/freetypefont.cpp; sourceTree = SOURCE_ROOT; };
+		09F8B47C3DCF4453AF4834C6 /* landscape.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = landscape.cpp; path = src/landscape.cpp; sourceTree = SOURCE_ROOT; };
+		133552E01B8742CE94EE85C2 /* gameworld.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = gameworld.cpp; path = src/gameworld.cpp; sourceTree = SOURCE_ROOT; };
+		165DB999C93B48ABAB1E2D76 /* rocket.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = rocket.cpp; path = src/rocket.cpp; sourceTree = SOURCE_ROOT; };
+		3CD4E5086930480DAB40CBE2 /* CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; lastKnownFileType = text; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		439B0E4F619644F584ABA256 /* ogro_invasion */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; path = ogro_invasion; sourceTree = BUILT_PRODUCTS_DIR; };
+		4BB7D08A4B71447681608A73 /* player.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = player.cpp; path = src/player.cpp; sourceTree = SOURCE_ROOT; };
+		6B57672BA3484964B2ADE338 /* targa.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = targa.cpp; path = src/targa.cpp; sourceTree = SOURCE_ROOT; };
+		719D83B4FAE14EA6AD46CA0D /* main.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = main.cpp; path = src/main.cpp; sourceTree = SOURCE_ROOT; };
+		71B0C5E889FA47FDB7BB8DF7 /* example.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = example.cpp; path = src/example.cpp; sourceTree = SOURCE_ROOT; };
+		77FA2144D51746FAAC5E02B7 /* entity.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = entity.cpp; path = src/entity.cpp; sourceTree = SOURCE_ROOT; };
+		79A9540FFA514D50B2F4065B /* tree.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = tree.cpp; path = src/tree.cpp; sourceTree = SOURCE_ROOT; };
+		8AD2CFB37ED747D19732373C /* md2model.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = md2model.cpp; path = src/md2model.cpp; sourceTree = SOURCE_ROOT; };
+		915BD824875B42B983DDA175 /* GLee.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = GLee.c; path = src/glee/GLee.c; sourceTree = SOURCE_ROOT; };
+		9642CDAE590841C9AC9456C5 /* explosion.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = explosion.cpp; path = src/explosion.cpp; sourceTree = SOURCE_ROOT; };
+		9954180E92D44689B0605DD1 /* frustum.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = frustum.cpp; path = src/frustum.cpp; sourceTree = SOURCE_ROOT; };
+		9C18B4169D014E808CF74454 /* camera.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = camera.cpp; path = src/camera.cpp; sourceTree = SOURCE_ROOT; };
+		A0EBD8505AFD4AD09A342FD9 /* collider.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = collider.cpp; path = src/collider.cpp; sourceTree = SOURCE_ROOT; };
+		A6D6CD9930284E8FB8330E44 /* spherecollider.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = spherecollider.cpp; path = src/spherecollider.cpp; sourceTree = SOURCE_ROOT; };
+		C3F0A2B171034CD180C1B5A4 /* CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; lastKnownFileType = text; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		CEA6AFBCE047429AB768CA0D /* ogro.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = ogro.cpp; path = src/ogro.cpp; sourceTree = SOURCE_ROOT; };
+		CED8AC10377B470D8756399F /* glxwindow.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = glxwindow.cpp; path = src/glxwindow.cpp; sourceTree = SOURCE_ROOT; };
+		D33E3B45ED63496DB525A5B0 /* enemy.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = enemy.cpp; path = src/enemy.cpp; sourceTree = SOURCE_ROOT; };
+		D58676515ACE471182CD2785 /* terraincollider.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = terraincollider.cpp; path = src/terraincollider.cpp; sourceTree = SOURCE_ROOT; };
+		E48E7BE52543E62D0094B66D /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		E48E7BE72543E6380094B66D /* IOKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = IOKit.framework; path = System/Library/Frameworks/IOKit.framework; sourceTree = SDKROOT; };
+		E48E7BE92543E6410094B66D /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		E48E7BEB2543E64D0094B66D /* OpenGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGL.framework; path = System/Library/Frameworks/OpenGL.framework; sourceTree = SDKROOT; };
+		E48E7BED2543E6820094B66D /* libglfw3.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libglfw3.a; path = platforms/osx/libglfw3.a; sourceTree = "<group>"; };
+		E48E7BEF2543E6A30094B66D /* glew.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; name = glew.c; path = source/common/thirdparty/glew/src/glew.c; sourceTree = "<group>"; };
+		F05ACEA816D440ED9B6110DA /* terrain.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = terrain.cpp; path = src/terrain.cpp; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E48E7BE32543E61D0094B66D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E48E7BEE2543E6820094B66D /* libglfw3.a in Frameworks */,
+				E48E7BEC2543E64D0094B66D /* OpenGL.framework in Frameworks */,
+				E48E7BEA2543E6410094B66D /* Cocoa.framework in Frameworks */,
+				E48E7BE82543E6380094B66D /* IOKit.framework in Frameworks */,
+				E48E7BE62543E62D0094B66D /* QuartzCore.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0238D76C650342F6B69A3FC8 /* ALL_BUILD */ = {
+			isa = PBXGroup;
+			children = (
+				21C0836311D44B0DAA679BF2 /* CMake Rules */,
+				C3F0A2B171034CD180C1B5A4 /* CMakeLists.txt */,
+			);
+			name = ALL_BUILD;
+			sourceTree = "<group>";
+		};
+		065E9A58D42A44C983E3EAF8 /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				9C18B4169D014E808CF74454 /* camera.cpp */,
+				A0EBD8505AFD4AD09A342FD9 /* collider.cpp */,
+				D33E3B45ED63496DB525A5B0 /* enemy.cpp */,
+				77FA2144D51746FAAC5E02B7 /* entity.cpp */,
+				71B0C5E889FA47FDB7BB8DF7 /* example.cpp */,
+				9642CDAE590841C9AC9456C5 /* explosion.cpp */,
+				0434D407CB0246C39CD80858 /* freetypefont.cpp */,
+				9954180E92D44689B0605DD1 /* frustum.cpp */,
+				133552E01B8742CE94EE85C2 /* gameworld.cpp */,
+				915BD824875B42B983DDA175 /* GLee.c */,
+				CED8AC10377B470D8756399F /* glxwindow.cpp */,
+				09F8B47C3DCF4453AF4834C6 /* landscape.cpp */,
+				719D83B4FAE14EA6AD46CA0D /* main.cpp */,
+				8AD2CFB37ED747D19732373C /* md2model.cpp */,
+				CEA6AFBCE047429AB768CA0D /* ogro.cpp */,
+				4BB7D08A4B71447681608A73 /* player.cpp */,
+				165DB999C93B48ABAB1E2D76 /* rocket.cpp */,
+				A6D6CD9930284E8FB8330E44 /* spherecollider.cpp */,
+				6B57672BA3484964B2ADE338 /* targa.cpp */,
+				F05ACEA816D440ED9B6110DA /* terrain.cpp */,
+				D58676515ACE471182CD2785 /* terraincollider.cpp */,
+				79A9540FFA514D50B2F4065B /* tree.cpp */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+		16C930E220D64192A22F1C93 = {
+			isa = PBXGroup;
+			children = (
+				E48E7BEF2543E6A30094B66D /* glew.c */,
+				E63FA225085A4133A891DB8E /* ogro_invasion */,
+				0238D76C650342F6B69A3FC8 /* ALL_BUILD */,
+				4DB56316BDBE4406A5717C54 /* Products */,
+				E48E7BE42543E62C0094B66D /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		21C0836311D44B0DAA679BF2 /* CMake Rules */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "CMake Rules";
+			sourceTree = "<group>";
+		};
+		4DB56316BDBE4406A5717C54 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				439B0E4F619644F584ABA256 /* ogro_invasion */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E48E7BE42543E62C0094B66D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E48E7BED2543E6820094B66D /* libglfw3.a */,
+				E48E7BEB2543E64D0094B66D /* OpenGL.framework */,
+				E48E7BE92543E6410094B66D /* Cocoa.framework */,
+				E48E7BE72543E6380094B66D /* IOKit.framework */,
+				E48E7BE52543E62D0094B66D /* QuartzCore.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E63FA225085A4133A891DB8E /* ogro_invasion */ = {
+			isa = PBXGroup;
+			children = (
+				065E9A58D42A44C983E3EAF8 /* Source Files */,
+				3CD4E5086930480DAB40CBE2 /* CMakeLists.txt */,
+			);
+			name = ogro_invasion;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B5B9645C8A4947F384CDCAE7 /* ogro_invasion */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AD11FCFF4F2D4D14BBEBEE44 /* Build configuration list for PBXNativeTarget "ogro_invasion" */;
+			buildPhases = (
+				D347BAAA780345AAB1203B7A /* Sources */,
+				E48E7BE32543E61D0094B66D /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				741215B5FB5740CE99B31A97 /* PBXTargetDependency */,
+			);
+			name = ogro_invasion;
+			productName = ogro_invasion;
+			productReference = 439B0E4F619644F584ABA256 /* ogro_invasion */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AC620C838CE4483ABB64786E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1000;
+			};
+			buildConfigurationList = FBD62A65293845EC9754A93C /* Build configuration list for PBXProject "ogro_invasion" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 16C930E220D64192A22F1C93;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F94F7EF48A664AA386B39766 /* ALL_BUILD */,
+				C9B72207AC7043AC844DF0A9 /* ZERO_CHECK */,
+				B5B9645C8A4947F384CDCAE7 /* ogro_invasion */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		E74A19FC7FA6409F9AE3DB17 /* CMake Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/joshuadahl/Desktop/Tools/OpenGL\\ Book\\ Examples/chapter_13/ogro_invasion -f /Users/joshuadahl/Desktop/Tools/OpenGL\\ Book\\ Examples/chapter_13/ogro_invasion/CMakeScripts/ALL_BUILD_cmakeRulesBuildPhase.make$CONFIGURATION OBJDIR=$(basename \"$OBJECT_FILE_DIR_normal\") all";
+			showEnvVarsInLog = 0;
+		};
+		F35674CBBE6E46AC8A9C6AA8 /* CMake Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/joshuadahl/Desktop/Tools/OpenGL\\ Book\\ Examples/chapter_13/ogro_invasion -f /Users/joshuadahl/Desktop/Tools/OpenGL\\ Book\\ Examples/chapter_13/ogro_invasion/CMakeScripts/ZERO_CHECK_cmakeRulesBuildPhase.make$CONFIGURATION OBJDIR=$(basename \"$OBJECT_FILE_DIR_normal\") all";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D347BAAA780345AAB1203B7A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E48E7BF125453D7E0094B66D /* glxwindow.cpp in Sources */,
+				E48E7BF02543E6A30094B66D /* glew.c in Sources */,
+				E4DE154CC45C45F8973DA08F /* camera.cpp in Sources */,
+				AE9F553A5BDE41BFA92AC462 /* collider.cpp in Sources */,
+				AAEB7AB00B684ED89B6D6CEB /* enemy.cpp in Sources */,
+				C9EEF84617A44CBB9928BF39 /* entity.cpp in Sources */,
+				55DD1215052C4F2898C71723 /* example.cpp in Sources */,
+				00B38BBA14944DC48BAFC1AB /* explosion.cpp in Sources */,
+				7E4088C20B8649459A8B0043 /* freetypefont.cpp in Sources */,
+				F6EFA42F7DFC4DCAB9BC9AFF /* frustum.cpp in Sources */,
+				812A116578514A1A93E14EE7 /* gameworld.cpp in Sources */,
+				CD46775CD6374EAD89341C57 /* landscape.cpp in Sources */,
+				B67B601A669B41D8A83B9381 /* main.cpp in Sources */,
+				E0AB5B81E8F04C218F9BA439 /* md2model.cpp in Sources */,
+				E32627C78B8447039A266C96 /* ogro.cpp in Sources */,
+				C4ACC89C8FF441AE91422E16 /* player.cpp in Sources */,
+				321B89FA517E4A0197F79FBB /* rocket.cpp in Sources */,
+				880ACBD04FFC4B899C4FDE59 /* spherecollider.cpp in Sources */,
+				F20CE296A23A4DC08BC11CBE /* targa.cpp in Sources */,
+				33137591327740F39634DEE0 /* terrain.cpp in Sources */,
+				0D1ACAC4D4184903913F1996 /* terraincollider.cpp in Sources */,
+				D2BDE7B58DED469BB8E75C7F /* tree.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1678611BB7FE41B2BBF15273 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B5B9645C8A4947F384CDCAE7 /* ogro_invasion */;
+			targetProxy = F758D4FEAD8848D5A07623D1 /* PBXContainerItemProxy */;
+		};
+		741215B5FB5740CE99B31A97 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C9B72207AC7043AC844DF0A9 /* ZERO_CHECK */;
+			targetProxy = 92E9C14D3B694117A5758A65 /* PBXContainerItemProxy */;
+		};
+		9065A8986E0C4B27A8F8F9B5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C9B72207AC7043AC844DF0A9 /* ZERO_CHECK */;
+			targetProxy = 95F1AAD08F2947EC92F1A131 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		1EB4C394954D4F7BA75B1CCD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Users/joshuadahl/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk;
+				SYMROOT = "/Users/joshuadahl/Desktop/Tools/OpenGL Book Examples/chapter_13/ogro_invasion/build";
+			};
+			name = Debug;
+		};
+		2577A04F15134FFD8EFE3D03 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Users/joshuadahl/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk;
+				SYMROOT = "/Users/joshuadahl/Desktop/Tools/OpenGL Book Examples/chapter_13/ogro_invasion/build";
+			};
+			name = Release;
+		};
+		2A1DFF9BE9C841AD85274707 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = "'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'";
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (
+					"\"$(PROJECT_DIR)/source/common/\"/**",
+					"\"$(PROJECT_DIR)/src/freetype/\"/**",
+					"\"$(PROJECT_DIR)/src/\"/**",
+				);
+				INSTALL_PATH = "";
+				LIBRARY_SEARCH_PATHS = (
+					"$(PROJECT_DIR)/platforms/osx",
+					"/usr/local/opt/freetype/lib/**",
+				);
+				OTHER_CFLAGS = "    ";
+				OTHER_CPLUSPLUSFLAGS = "    ";
+				OTHER_LDFLAGS = "-lfreetype";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ogro_invasion;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/joshuadahl/Desktop/Tools/OpenGL Book Examples/chapter_13/ogro_invasion";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = "$(inherited)";
+			};
+			name = Debug;
+		};
+		2D6ACCFFA384400AABA3691A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = "'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'";
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/joshuadahl/Desktop/Tools/OpenGL Book Examples/chapter_13/ogro_invasion";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = "$(inherited)";
+			};
+			name = Release;
+		};
+		358D68350D1C4B33AE77433E /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = "'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'";
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/joshuadahl/Desktop/Tools/OpenGL Book Examples/chapter_13/ogro_invasion";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = "$(inherited)";
+			};
+			name = MinSizeRel;
+		};
+		45AE796080D3432AAC1D46D7 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Users/joshuadahl/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk;
+				SYMROOT = "/Users/joshuadahl/Desktop/Tools/OpenGL Book Examples/chapter_13/ogro_invasion/build";
+			};
+			name = RelWithDebInfo;
+		};
+		4A65154B042644338F439522 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = "'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'";
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/joshuadahl/Desktop/Tools/OpenGL Book Examples/chapter_13/ogro_invasion";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = "$(inherited)";
+			};
+			name = Debug;
+		};
+		6A0BD604A175419FA34AE109 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 2;
+				GCC_PREPROCESSOR_DEFINITIONS = "'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'";
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (
+					"\"$(PROJECT_DIR)/source/common/\"/**",
+					"\"$(PROJECT_DIR)/src/freetype/\"/**",
+					"\"$(PROJECT_DIR)/src/\"/**",
+				);
+				INSTALL_PATH = "";
+				LIBRARY_SEARCH_PATHS = (
+					"$(PROJECT_DIR)/platforms/osx",
+					"/usr/local/opt/freetype/lib/**",
+				);
+				OTHER_CFLAGS = "       -DNDEBUG  ";
+				OTHER_CPLUSPLUSFLAGS = "       -DNDEBUG  ";
+				OTHER_LDFLAGS = "-lfreetype";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ogro_invasion;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/joshuadahl/Desktop/Tools/OpenGL Book Examples/chapter_13/ogro_invasion";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = "$(inherited)";
+			};
+			name = RelWithDebInfo;
+		};
+		6FA3F429F5BD4E6A8DDA7DF4 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = "'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'";
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/joshuadahl/Desktop/Tools/OpenGL Book Examples/chapter_13/ogro_invasion";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = "$(inherited)";
+			};
+			name = RelWithDebInfo;
+		};
+		868D8DFB6C664A0E8D05571D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = "'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'";
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (
+					"\"$(PROJECT_DIR)/source/common/\"/**",
+					"\"$(PROJECT_DIR)/src/freetype/\"/**",
+					"\"$(PROJECT_DIR)/src/\"/**",
+				);
+				INSTALL_PATH = "";
+				LIBRARY_SEARCH_PATHS = (
+					"$(PROJECT_DIR)/platforms/osx",
+					"/usr/local/opt/freetype/lib/**",
+				);
+				OTHER_CFLAGS = "    -DNDEBUG  ";
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG  ";
+				OTHER_LDFLAGS = "-lfreetype";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ogro_invasion;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/joshuadahl/Desktop/Tools/OpenGL Book Examples/chapter_13/ogro_invasion";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = "$(inherited)";
+			};
+			name = Release;
+		};
+		AF37C6C16E924B10AFC73C51 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = "'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'";
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/joshuadahl/Desktop/Tools/OpenGL Book Examples/chapter_13/ogro_invasion";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = "$(inherited)";
+			};
+			name = Release;
+		};
+		B68B7D5849DD4349811B3C59 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = "'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'";
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/joshuadahl/Desktop/Tools/OpenGL Book Examples/chapter_13/ogro_invasion";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = "$(inherited)";
+			};
+			name = Debug;
+		};
+		BEFBCDE4B77D4B67B35EA689 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = "'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'";
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/joshuadahl/Desktop/Tools/OpenGL Book Examples/chapter_13/ogro_invasion";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = "$(inherited)";
+			};
+			name = MinSizeRel;
+		};
+		DBCAFE3A20C04F4D9B9D5DA2 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = "'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'";
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/joshuadahl/Desktop/Tools/OpenGL Book Examples/chapter_13/ogro_invasion";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = "$(inherited)";
+			};
+			name = RelWithDebInfo;
+		};
+		DD46206FF4E440D6ABFA033D /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = "'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'";
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (
+					"\"$(PROJECT_DIR)/source/common/\"/**",
+					"\"$(PROJECT_DIR)/src/freetype/\"/**",
+					"\"$(PROJECT_DIR)/src/\"/**",
+				);
+				INSTALL_PATH = "";
+				LIBRARY_SEARCH_PATHS = (
+					"$(PROJECT_DIR)/platforms/osx",
+					"/usr/local/opt/freetype/lib/**",
+				);
+				OTHER_CFLAGS = "    -DNDEBUG  ";
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG  ";
+				OTHER_LDFLAGS = "-lfreetype";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ogro_invasion;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/joshuadahl/Desktop/Tools/OpenGL Book Examples/chapter_13/ogro_invasion";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = "$(inherited)";
+			};
+			name = MinSizeRel;
+		};
+		DE6C7B9558B646A198E7C867 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Users/joshuadahl/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk;
+				SYMROOT = "/Users/joshuadahl/Desktop/Tools/OpenGL Book Examples/chapter_13/ogro_invasion/build";
+			};
+			name = MinSizeRel;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		45D7F465879A474EBC82C193 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4A65154B042644338F439522 /* Debug */,
+				2D6ACCFFA384400AABA3691A /* Release */,
+				358D68350D1C4B33AE77433E /* MinSizeRel */,
+				6FA3F429F5BD4E6A8DDA7DF4 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		AD11FCFF4F2D4D14BBEBEE44 /* Build configuration list for PBXNativeTarget "ogro_invasion" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2A1DFF9BE9C841AD85274707 /* Debug */,
+				868D8DFB6C664A0E8D05571D /* Release */,
+				DD46206FF4E440D6ABFA033D /* MinSizeRel */,
+				6A0BD604A175419FA34AE109 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		D0A2CE7054C548AE840F3BB4 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B68B7D5849DD4349811B3C59 /* Debug */,
+				AF37C6C16E924B10AFC73C51 /* Release */,
+				BEFBCDE4B77D4B67B35EA689 /* MinSizeRel */,
+				DBCAFE3A20C04F4D9B9D5DA2 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		FBD62A65293845EC9754A93C /* Build configuration list for PBXProject "ogro_invasion" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1EB4C394954D4F7BA75B1CCD /* Debug */,
+				2577A04F15134FFD8EFE3D03 /* Release */,
+				DE6C7B9558B646A198E7C867 /* MinSizeRel */,
+				45AE796080D3432AAC1D46D7 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AC620C838CE4483ABB64786E /* Project object */;
+}

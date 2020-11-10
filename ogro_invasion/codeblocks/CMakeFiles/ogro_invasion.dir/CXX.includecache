@@ -1,0 +1,594 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/media/OS/Users/luke/Desktop/BOGLGP Source/boglgp/Source/OpenGL 3.0/chapter_13/ogro_invasion/src/boglgpwindow.h
+uncopyable.h
+/media/OS/Users/luke/Desktop/BOGLGP Source/boglgp/Source/OpenGL 3.0/chapter_13/ogro_invasion/src/uncopyable.h
+
+/media/OS/Users/luke/Desktop/BOGLGP Source/boglgp/Source/OpenGL 3.0/chapter_13/ogro_invasion/src/camera.cpp
+windows.h
+-
+iostream
+-
+glee/GLee.h
+/media/OS/Users/luke/Desktop/BOGLGP Source/boglgp/Source/OpenGL 3.0/chapter_13/ogro_invasion/src/glee/GLee.h
+camera.h
+/media/OS/Users/luke/Desktop/BOGLGP Source/boglgp/Source/OpenGL 3.0/chapter_13/ogro_invasion/src/camera.h
+entity.h
+/media/OS/Users/luke/Desktop/BOGLGP Source/boglgp/Source/OpenGL 3.0/chapter_13/ogro_invasion/src/entity.h
+GL/glu.h
+-
+
+/media/OS/Users/luke/Desktop/BOGLGP Source/boglgp/Source/OpenGL 3.0/chapter_13/ogro_invasion/src/camera.h
+uncopyable.h
+/media/OS/Users/luke/Desktop/BOGLGP Source/boglgp/Source/OpenGL 3.0/chapter_13/ogro_invasion/src/uncopyable.h
+geom.h
+/media/OS/Users/luke/Desktop/BOGLGP Source/boglgp/Source/OpenGL 3.0/chapter_13/ogro_invasion/src/geom.h
+
+/media/OS/Users/luke/Desktop/BOGLGP Source/boglgp/Source/OpenGL 3.0/chapter_13/ogro_invasion/src/collider.cpp
+entity.h
+/media/OS/Users/luke/Desktop/BOGLGP Source/boglgp/Source/OpenGL 3.0/chapter_13/ogro_invasion/src/entity.h
+collider.h
+/media/OS/Users/luke/Desktop/BOGLGP Source/boglgp/Source/OpenGL 3.0/chapter_13/ogro_invasion/src/collider.h
+
+/media/OS/Users/luke/Desktop/BOGLGP Source/boglgp/Source/OpenGL 3.0/chapter_13/ogro_invasion/src/collider.h
+list
+-
+uncopyable.h
+/media/OS/Users/luke/Desktop/BOGLGP Source/boglgp/Source/OpenGL 3.0/chapter_13/ogro_invasion/src/uncopyable.h
+
+/media/OS/Users/luke/Desktop/BOGLGP Source/boglgp/Source/OpenGL 3.0/chapter_13/ogro_invasion/src/enemy.cpp
+enemy.h
+/media/OS/Users/luke/Desktop/BOGLGP Source/boglgp/Source/OpenGL 3.0/chapter_13/ogro_invasion/src/enemy.h
+spherecollider.h
+/media/OS/Users/luke/Desktop/BOGLGP Source/boglgp/Source/OpenGL 3.0/chapter_13/ogro_invasion/src/spherecollider.h
+gameworld.h
+/media/OS/Users/luke/Desktop/BOGLGP Source/boglgp/Source/OpenGL 3.0/chapter_13/ogro_invasion/src/gameworld.h
+player.h
+/media/OS/Users/luke/Desktop/BOGLGP Source/boglgp/Source/OpenGL 3.0/chapter_13/ogro_invasion/src/player.h
+
+/media/OS/Users/luke/Desktop/BOGLGP Source/boglgp/Source/OpenGL 3.0/chapter_13/ogro_invasion/src/enemy.h
+entity.h
+/media/OS/Users/luke/Desktop/BOGLGP Source/boglgp/Source/OpenGL 3.0/chapter_13/ogro_invasion/src/entity.h
+
+/media/OS/Users/luke/Desktop/BOGLGP Source/boglgp/Source/OpenGL 3.0/chapter_13/ogro_invasion/src/entity.cpp
+entity.h
+/media/OS/Users/luke/Desktop/BOGLGP Source/boglgp/Source/OpenGL 3.0/chapter_13/ogro_invasion/src/entity.h
+
+/media/OS/Users/luke/Desktop/BOGLGP Source/boglgp/Source/OpenGL 3.0/chapter_13/ogro_invasion/src/entity.h
+geom.h
+/media/OS/Users/luke/Desktop/BOGLGP Source/boglgp/Source/OpenGL 3.0/chapter_13/ogro_invasion/src/geom.h
+entitytypes.h
+/media/OS/Users/luke/Desktop/BOGLGP Source/boglgp/Source/OpenGL 3.0/chapter_13/ogro_invasion/src/entitytypes.h
+uncopyable.h
+/media/OS/Users/luke/Desktop/BOGLGP Source/boglgp/Source/OpenGL 3.0/chapter_13/ogro_invasion/src/uncopyable.h
+
+/media/OS/Users/luke/Desktop/BOGLGP Source/boglgp/Source/OpenGL 3.0/chapter_13/ogro_invasion/src/entitytypes.h
+
+/media/OS/Users/luke/Desktop/BOGLGP Source/boglgp/Source/OpenGL 3.0/chapter_13/ogro_invasion/src/example.cpp
+windows.h
+-
+ctime
+-
+iostream
+-
+iomanip
+-
+fstream
+-
+ctime
+-
+cmath
+-
+sstream
+-
+glee/GLee.h
+/media/OS/Users/luke/Desktop/BOGLGP Source/boglgp/Source/OpenGL 3.0/chapter_13/ogro_invasion/src/glee/GLee.h
+GL/glu.h
+-
+example.h
+/media/OS/Users/luke/Desktop/BOGLGP Source/boglgp/Source/OpenGL 3.0/chapter_13/ogro_invasion/src/example.h
+glslshader.h
+/media/OS/Users/luke/Desktop/BOGLGP Source/boglgp/Source/OpenGL 3.0/chapter_13/ogro_invasion/src/glslshader.h
+freetypefont.h
+/media/OS/Users/luke/Desktop/BOGLGP Source/boglgp/Source/OpenGL 3.0/chapter_13/ogro_invasion/src/freetypefont.h
+gameworld.h
+/media/OS/Users/luke/Desktop/BOGLGP Source/boglgp/Source/OpenGL 3.0/chapter_13/ogro_invasion/src/gameworld.h
+player.h
+/media/OS/Users/luke/Desktop/BOGLGP Source/boglgp/Source/OpenGL 3.0/chapter_13/ogro_invasion/src/player.h
+freetypefont.h
+/media/OS/Users/luke/Desktop/BOGLGP Source/boglgp/Source/OpenGL 3.0/chapter_13/ogro_invasion/src/freetypefont.h
+boglgpwindow.h
+/media/OS/Users/luke/Desktop/BOGLGP Source/boglgp/Source/OpenGL 3.0/chapter_13/ogro_invasion/src/boglgpwindow.h
+
+/media/OS/Users/luke/Desktop/BOGLGP Source/boglgp/Source/OpenGL 3.0/chapter_13/ogro_invasion/src/example.h
+memory
+-
+uncopyable.h
+/media/OS/Users/luke/Desktop/BOGLGP Source/boglgp/Source/OpenGL 3.0/chapter_13/ogro_invasion/src/uncopyable.h
+
+/media/OS/Users/luke/Desktop/BOGLGP Source/boglgp/Source/OpenGL 3.0/chapter_13/ogro_invasion/src/explosion.cpp
+windows.h
+-
+string
+-
+cstdlib
+-
+glee/GLee.h
+/media/OS/Users/luke/Desktop/BOGLGP Source/boglgp/Source/OpenGL 3.0/chapter_13/ogro_invasion/src/glee/GLee.h
+GL/glu.h
+-
+explosion.h
+/media/OS/Users/luke/Desktop/BOGLGP Source/boglgp/Source/OpenGL 3.0/chapter_13/ogro_invasion/src/explosion.h
+glslshader.h
+/media/OS/Users/luke/Desktop/BOGLGP Source/boglgp/Source/OpenGL 3.0/chapter_13/ogro_invasion/src/glslshader.h
+
+/media/OS/Users/luke/Desktop/BOGLGP Source/boglgp/Source/OpenGL 3.0/chapter_13/ogro_invasion/src/explosion.h
+vector
+-
+memory
+-
+glee/GLee.h
+/media/OS/Users/luke/Desktop/BOGLGP Source/boglgp/Source/OpenGL 3.0/chapter_13/ogro_invasion/src/glee/GLee.h
+entity.h
+/media/OS/Users/luke/Desktop/BOGLGP Source/boglgp/Source/OpenGL 3.0/chapter_13/ogro_invasion/src/entity.h
+geom.h
+/media/OS/Users/luke/Desktop/BOGLGP Source/boglgp/Source/OpenGL 3.0/chapter_13/ogro_invasion/src/geom.h
+targa.h
+/media/OS/Users/luke/Desktop/BOGLGP Source/boglgp/Source/OpenGL 3.0/chapter_13/ogro_invasion/src/targa.h
+
+/media/OS/Users/luke/Desktop/BOGLGP Source/boglgp/Source/OpenGL 3.0/chapter_13/ogro_invasion/src/freetypefont.cpp
+windows.h
+-
+freetypefont.h
+/media/OS/Users/luke/Desktop/BOGLGP Source/boglgp/Source/OpenGL 3.0/chapter_13/ogro_invasion/src/freetypefont.h
+
+/media/OS/Users/luke/Desktop/BOGLGP Source/boglgp/Source/OpenGL 3.0/chapter_13/ogro_invasion/src/freetypefont.h
+ft2build.h
+-
+freetype2/freetype/freetype.h
+-
+freetype2/freetype/ftglyph.h
+-
+freetype2/freetype/ftoutln.h
+-
+freetype2/freetype/fttrigon.h
+-
+string
+-
+glee/GLee.h
+/media/OS/Users/luke/Desktop/BOGLGP Source/boglgp/Source/OpenGL 3.0/chapter_13/ogro_invasion/src/glee/GLee.h
+glslshader.h
+/media/OS/Users/luke/Desktop/BOGLGP Source/boglgp/Source/OpenGL 3.0/chapter_13/ogro_invasion/src/glslshader.h
+uncopyable.h
+/media/OS/Users/luke/Desktop/BOGLGP Source/boglgp/Source/OpenGL 3.0/chapter_13/ogro_invasion/src/uncopyable.h
+
+/media/OS/Users/luke/Desktop/BOGLGP Source/boglgp/Source/OpenGL 3.0/chapter_13/ogro_invasion/src/frustum.cpp
+cmath
+-
+glee/GLee.h
+/media/OS/Users/luke/Desktop/BOGLGP Source/boglgp/Source/OpenGL 3.0/chapter_13/ogro_invasion/src/glee/GLee.h
+frustum.h
+/media/OS/Users/luke/Desktop/BOGLGP Source/boglgp/Source/OpenGL 3.0/chapter_13/ogro_invasion/src/frustum.h
+
+/media/OS/Users/luke/Desktop/BOGLGP Source/boglgp/Source/OpenGL 3.0/chapter_13/ogro_invasion/src/frustum.h
+
+/media/OS/Users/luke/Desktop/BOGLGP Source/boglgp/Source/OpenGL 3.0/chapter_13/ogro_invasion/src/gameworld.cpp
+windows.h
+-
+ctime
+-
+stdexcept
+-
+cassert
+-
+algorithm
+-
+gameworld.h
+/media/OS/Users/luke/Desktop/BOGLGP Source/boglgp/Source/OpenGL 3.0/chapter_13/ogro_invasion/src/gameworld.h
+ogro.h
+/media/OS/Users/luke/Desktop/BOGLGP Source/boglgp/Source/OpenGL 3.0/chapter_13/ogro_invasion/src/ogro.h
+player.h
+/media/OS/Users/luke/Desktop/BOGLGP Source/boglgp/Source/OpenGL 3.0/chapter_13/ogro_invasion/src/player.h
+collider.h
+/media/OS/Users/luke/Desktop/BOGLGP Source/boglgp/Source/OpenGL 3.0/chapter_13/ogro_invasion/src/collider.h
+landscape.h
+/media/OS/Users/luke/Desktop/BOGLGP Source/boglgp/Source/OpenGL 3.0/chapter_13/ogro_invasion/src/landscape.h
+glslshader.h
+/media/OS/Users/luke/Desktop/BOGLGP Source/boglgp/Source/OpenGL 3.0/chapter_13/ogro_invasion/src/glslshader.h
+camera.h
+/media/OS/Users/luke/Desktop/BOGLGP Source/boglgp/Source/OpenGL 3.0/chapter_13/ogro_invasion/src/camera.h
+keyboardinterface.h
+/media/OS/Users/luke/Desktop/BOGLGP Source/boglgp/Source/OpenGL 3.0/chapter_13/ogro_invasion/src/keyboardinterface.h
+mouseinterface.h
+/media/OS/Users/luke/Desktop/BOGLGP Source/boglgp/Source/OpenGL 3.0/chapter_13/ogro_invasion/src/mouseinterface.h
+rocket.h
+/media/OS/Users/luke/Desktop/BOGLGP Source/boglgp/Source/OpenGL 3.0/chapter_13/ogro_invasion/src/rocket.h
+explosion.h
+/media/OS/Users/luke/Desktop/BOGLGP Source/boglgp/Source/OpenGL 3.0/chapter_13/ogro_invasion/src/explosion.h
+tree.h
+/media/OS/Users/luke/Desktop/BOGLGP Source/boglgp/Source/OpenGL 3.0/chapter_13/ogro_invasion/src/tree.h
+frustum.h
+/media/OS/Users/luke/Desktop/BOGLGP Source/boglgp/Source/OpenGL 3.0/chapter_13/ogro_invasion/src/frustum.h
+
+/media/OS/Users/luke/Desktop/BOGLGP Source/boglgp/Source/OpenGL 3.0/chapter_13/ogro_invasion/src/gameworld.h
+iomanip
+-
+list
+-
+string
+-
+sstream
+-
+memory
+-
+uncopyable.h
+/media/OS/Users/luke/Desktop/BOGLGP Source/boglgp/Source/OpenGL 3.0/chapter_13/ogro_invasion/src/uncopyable.h
+enemy.h
+/media/OS/Users/luke/Desktop/BOGLGP Source/boglgp/Source/OpenGL 3.0/chapter_13/ogro_invasion/src/enemy.h
+
+/media/OS/Users/luke/Desktop/BOGLGP Source/boglgp/Source/OpenGL 3.0/chapter_13/ogro_invasion/src/geom.h
+cmath
+-
+
+/media/OS/Users/luke/Desktop/BOGLGP Source/boglgp/Source/OpenGL 3.0/chapter_13/ogro_invasion/src/glee/GLee.h
+windows.h
+-
+GL/gl.h
+-
+OpenGL/gl.h
+-
+GL/gl.h
+-
+GL/glx.h
+-
+stddef.h
+-
+
+/media/OS/Users/luke/Desktop/BOGLGP Source/boglgp/Source/OpenGL 3.0/chapter_13/ogro_invasion/src/glslshader.h
+windows.h
+-
+map
+-
+fstream
+-
+iostream
+-
+string
+-
+vector
+-
+glee/GLee.h
+/media/OS/Users/luke/Desktop/BOGLGP Source/boglgp/Source/OpenGL 3.0/chapter_13/ogro_invasion/src/glee/GLee.h
+
+/media/OS/Users/luke/Desktop/BOGLGP Source/boglgp/Source/OpenGL 3.0/chapter_13/ogro_invasion/src/glwindow.h
+windows.h
+-
+ctime
+-
+boglgpwindow.h
+/media/OS/Users/luke/Desktop/BOGLGP Source/boglgp/Source/OpenGL 3.0/chapter_13/ogro_invasion/src/boglgpwindow.h
+
+/media/OS/Users/luke/Desktop/BOGLGP Source/boglgp/Source/OpenGL 3.0/chapter_13/ogro_invasion/src/glx/glxext.h
+windows.h
+-
+inttypes.h
+-
+inttypes.h
+-
+inttypes.h
+-
+stdint.h
+-
+stdint.h
+-
+inttypes.h
+-
+
+/media/OS/Users/luke/Desktop/BOGLGP Source/boglgp/Source/OpenGL 3.0/chapter_13/ogro_invasion/src/glxwindow.cpp
+iostream
+-
+string
+-
+sys/time.h
+-
+glxwindow.h
+/media/OS/Users/luke/Desktop/BOGLGP Source/boglgp/Source/OpenGL 3.0/chapter_13/ogro_invasion/src/glxwindow.h
+example.h
+/media/OS/Users/luke/Desktop/BOGLGP Source/boglgp/Source/OpenGL 3.0/chapter_13/ogro_invasion/src/example.h
+xkeyboardinterface.h
+/media/OS/Users/luke/Desktop/BOGLGP Source/boglgp/Source/OpenGL 3.0/chapter_13/ogro_invasion/src/xkeyboardinterface.h
+xmouseinterface.h
+/media/OS/Users/luke/Desktop/BOGLGP Source/boglgp/Source/OpenGL 3.0/chapter_13/ogro_invasion/src/xmouseinterface.h
+
+/media/OS/Users/luke/Desktop/BOGLGP Source/boglgp/Source/OpenGL 3.0/chapter_13/ogro_invasion/src/glxwindow.h
+GL/glx.h
+-
+glx/glxext.h
+/media/OS/Users/luke/Desktop/BOGLGP Source/boglgp/Source/OpenGL 3.0/chapter_13/ogro_invasion/src/glx/glxext.h
+X11/Xlib.h
+-
+X11/Xutil.h
+-
+X11/extensions/xf86vmode.h
+-
+X11/keysym.h
+-
+ctime
+-
+boglgpwindow.h
+/media/OS/Users/luke/Desktop/BOGLGP Source/boglgp/Source/OpenGL 3.0/chapter_13/ogro_invasion/src/boglgpwindow.h
+
+/media/OS/Users/luke/Desktop/BOGLGP Source/boglgp/Source/OpenGL 3.0/chapter_13/ogro_invasion/src/keyboardinterface.h
+
+/media/OS/Users/luke/Desktop/BOGLGP Source/boglgp/Source/OpenGL 3.0/chapter_13/ogro_invasion/src/landscape.cpp
+windows.h
+-
+cassert
+-
+landscape.h
+/media/OS/Users/luke/Desktop/BOGLGP Source/boglgp/Source/OpenGL 3.0/chapter_13/ogro_invasion/src/landscape.h
+terraincollider.h
+/media/OS/Users/luke/Desktop/BOGLGP Source/boglgp/Source/OpenGL 3.0/chapter_13/ogro_invasion/src/terraincollider.h
+
+/media/OS/Users/luke/Desktop/BOGLGP Source/boglgp/Source/OpenGL 3.0/chapter_13/ogro_invasion/src/landscape.h
+stdexcept
+-
+memory
+-
+entity.h
+/media/OS/Users/luke/Desktop/BOGLGP Source/boglgp/Source/OpenGL 3.0/chapter_13/ogro_invasion/src/entity.h
+terrain.h
+/media/OS/Users/luke/Desktop/BOGLGP Source/boglgp/Source/OpenGL 3.0/chapter_13/ogro_invasion/src/terrain.h
+
+/media/OS/Users/luke/Desktop/BOGLGP Source/boglgp/Source/OpenGL 3.0/chapter_13/ogro_invasion/src/main.cpp
+windows.h
+-
+glwindow.h
+/media/OS/Users/luke/Desktop/BOGLGP Source/boglgp/Source/OpenGL 3.0/chapter_13/ogro_invasion/src/glwindow.h
+glxwindow.h
+/media/OS/Users/luke/Desktop/BOGLGP Source/boglgp/Source/OpenGL 3.0/chapter_13/ogro_invasion/src/glxwindow.h
+example.h
+/media/OS/Users/luke/Desktop/BOGLGP Source/boglgp/Source/OpenGL 3.0/chapter_13/ogro_invasion/src/example.h
+
+/media/OS/Users/luke/Desktop/BOGLGP Source/boglgp/Source/OpenGL 3.0/chapter_13/ogro_invasion/src/md2model.cpp
+windows.h
+-
+iostream
+-
+fstream
+-
+glslshader.h
+/media/OS/Users/luke/Desktop/BOGLGP Source/boglgp/Source/OpenGL 3.0/chapter_13/ogro_invasion/src/glslshader.h
+md2model.h
+/media/OS/Users/luke/Desktop/BOGLGP Source/boglgp/Source/OpenGL 3.0/chapter_13/ogro_invasion/src/md2model.h
+
+/media/OS/Users/luke/Desktop/BOGLGP Source/boglgp/Source/OpenGL 3.0/chapter_13/ogro_invasion/src/md2model.h
+glee/GLee.h
+/media/OS/Users/luke/Desktop/BOGLGP Source/boglgp/Source/OpenGL 3.0/chapter_13/ogro_invasion/src/glee/GLee.h
+vector
+-
+string
+-
+geom.h
+/media/OS/Users/luke/Desktop/BOGLGP Source/boglgp/Source/OpenGL 3.0/chapter_13/ogro_invasion/src/geom.h
+
+/media/OS/Users/luke/Desktop/BOGLGP Source/boglgp/Source/OpenGL 3.0/chapter_13/ogro_invasion/src/mouseinterface.h
+
+/media/OS/Users/luke/Desktop/BOGLGP Source/boglgp/Source/OpenGL 3.0/chapter_13/ogro_invasion/src/ogro.cpp
+windows.h
+-
+string
+-
+cstdlib
+-
+glee/GLee.h
+/media/OS/Users/luke/Desktop/BOGLGP Source/boglgp/Source/OpenGL 3.0/chapter_13/ogro_invasion/src/glee/GLee.h
+GL/glu.h
+-
+ogro.h
+/media/OS/Users/luke/Desktop/BOGLGP Source/boglgp/Source/OpenGL 3.0/chapter_13/ogro_invasion/src/ogro.h
+glslshader.h
+/media/OS/Users/luke/Desktop/BOGLGP Source/boglgp/Source/OpenGL 3.0/chapter_13/ogro_invasion/src/glslshader.h
+md2model.h
+/media/OS/Users/luke/Desktop/BOGLGP Source/boglgp/Source/OpenGL 3.0/chapter_13/ogro_invasion/src/md2model.h
+collider.h
+/media/OS/Users/luke/Desktop/BOGLGP Source/boglgp/Source/OpenGL 3.0/chapter_13/ogro_invasion/src/collider.h
+gameworld.h
+/media/OS/Users/luke/Desktop/BOGLGP Source/boglgp/Source/OpenGL 3.0/chapter_13/ogro_invasion/src/gameworld.h
+player.h
+/media/OS/Users/luke/Desktop/BOGLGP Source/boglgp/Source/OpenGL 3.0/chapter_13/ogro_invasion/src/player.h
+landscape.h
+/media/OS/Users/luke/Desktop/BOGLGP Source/boglgp/Source/OpenGL 3.0/chapter_13/ogro_invasion/src/landscape.h
+
+/media/OS/Users/luke/Desktop/BOGLGP Source/boglgp/Source/OpenGL 3.0/chapter_13/ogro_invasion/src/ogro.h
+enemy.h
+/media/OS/Users/luke/Desktop/BOGLGP Source/boglgp/Source/OpenGL 3.0/chapter_13/ogro_invasion/src/enemy.h
+targa.h
+/media/OS/Users/luke/Desktop/BOGLGP Source/boglgp/Source/OpenGL 3.0/chapter_13/ogro_invasion/src/targa.h
+
+/media/OS/Users/luke/Desktop/BOGLGP Source/boglgp/Source/OpenGL 3.0/chapter_13/ogro_invasion/src/player.cpp
+player.h
+/media/OS/Users/luke/Desktop/BOGLGP Source/boglgp/Source/OpenGL 3.0/chapter_13/ogro_invasion/src/player.h
+gameworld.h
+/media/OS/Users/luke/Desktop/BOGLGP Source/boglgp/Source/OpenGL 3.0/chapter_13/ogro_invasion/src/gameworld.h
+keyboardinterface.h
+/media/OS/Users/luke/Desktop/BOGLGP Source/boglgp/Source/OpenGL 3.0/chapter_13/ogro_invasion/src/keyboardinterface.h
+mouseinterface.h
+/media/OS/Users/luke/Desktop/BOGLGP Source/boglgp/Source/OpenGL 3.0/chapter_13/ogro_invasion/src/mouseinterface.h
+spherecollider.h
+/media/OS/Users/luke/Desktop/BOGLGP Source/boglgp/Source/OpenGL 3.0/chapter_13/ogro_invasion/src/spherecollider.h
+landscape.h
+/media/OS/Users/luke/Desktop/BOGLGP Source/boglgp/Source/OpenGL 3.0/chapter_13/ogro_invasion/src/landscape.h
+
+/media/OS/Users/luke/Desktop/BOGLGP Source/boglgp/Source/OpenGL 3.0/chapter_13/ogro_invasion/src/player.h
+iostream
+-
+entity.h
+/media/OS/Users/luke/Desktop/BOGLGP Source/boglgp/Source/OpenGL 3.0/chapter_13/ogro_invasion/src/entity.h
+
+/media/OS/Users/luke/Desktop/BOGLGP Source/boglgp/Source/OpenGL 3.0/chapter_13/ogro_invasion/src/rocket.cpp
+windows.h
+-
+string
+-
+glee/GLee.h
+/media/OS/Users/luke/Desktop/BOGLGP Source/boglgp/Source/OpenGL 3.0/chapter_13/ogro_invasion/src/glee/GLee.h
+GL/glu.h
+-
+rocket.h
+/media/OS/Users/luke/Desktop/BOGLGP Source/boglgp/Source/OpenGL 3.0/chapter_13/ogro_invasion/src/rocket.h
+gameworld.h
+/media/OS/Users/luke/Desktop/BOGLGP Source/boglgp/Source/OpenGL 3.0/chapter_13/ogro_invasion/src/gameworld.h
+spherecollider.h
+/media/OS/Users/luke/Desktop/BOGLGP Source/boglgp/Source/OpenGL 3.0/chapter_13/ogro_invasion/src/spherecollider.h
+md2model.h
+/media/OS/Users/luke/Desktop/BOGLGP Source/boglgp/Source/OpenGL 3.0/chapter_13/ogro_invasion/src/md2model.h
+glslshader.h
+/media/OS/Users/luke/Desktop/BOGLGP Source/boglgp/Source/OpenGL 3.0/chapter_13/ogro_invasion/src/glslshader.h
+
+/media/OS/Users/luke/Desktop/BOGLGP Source/boglgp/Source/OpenGL 3.0/chapter_13/ogro_invasion/src/rocket.h
+entity.h
+/media/OS/Users/luke/Desktop/BOGLGP Source/boglgp/Source/OpenGL 3.0/chapter_13/ogro_invasion/src/entity.h
+targa.h
+/media/OS/Users/luke/Desktop/BOGLGP Source/boglgp/Source/OpenGL 3.0/chapter_13/ogro_invasion/src/targa.h
+
+/media/OS/Users/luke/Desktop/BOGLGP Source/boglgp/Source/OpenGL 3.0/chapter_13/ogro_invasion/src/spherecollider.cpp
+entity.h
+/media/OS/Users/luke/Desktop/BOGLGP Source/boglgp/Source/OpenGL 3.0/chapter_13/ogro_invasion/src/entity.h
+geom.h
+/media/OS/Users/luke/Desktop/BOGLGP Source/boglgp/Source/OpenGL 3.0/chapter_13/ogro_invasion/src/geom.h
+spherecollider.h
+/media/OS/Users/luke/Desktop/BOGLGP Source/boglgp/Source/OpenGL 3.0/chapter_13/ogro_invasion/src/spherecollider.h
+
+/media/OS/Users/luke/Desktop/BOGLGP Source/boglgp/Source/OpenGL 3.0/chapter_13/ogro_invasion/src/spherecollider.h
+collider.h
+/media/OS/Users/luke/Desktop/BOGLGP Source/boglgp/Source/OpenGL 3.0/chapter_13/ogro_invasion/src/collider.h
+
+/media/OS/Users/luke/Desktop/BOGLGP Source/boglgp/Source/OpenGL 3.0/chapter_13/ogro_invasion/src/targa.cpp
+windows.h
+-
+fstream
+-
+cassert
+-
+iostream
+-
+targa.h
+/media/OS/Users/luke/Desktop/BOGLGP Source/boglgp/Source/OpenGL 3.0/chapter_13/ogro_invasion/src/targa.h
+
+/media/OS/Users/luke/Desktop/BOGLGP Source/boglgp/Source/OpenGL 3.0/chapter_13/ogro_invasion/src/targa.h
+vector
+-
+string
+-
+fstream
+-
+glee/GLee.h
+/media/OS/Users/luke/Desktop/BOGLGP Source/boglgp/Source/OpenGL 3.0/chapter_13/ogro_invasion/src/glee/GLee.h
+
+/media/OS/Users/luke/Desktop/BOGLGP Source/boglgp/Source/OpenGL 3.0/chapter_13/ogro_invasion/src/terrain.cpp
+windows.h
+-
+fstream
+-
+cmath
+-
+iostream
+-
+cassert
+-
+vector
+-
+glee/GLee.h
+/media/OS/Users/luke/Desktop/BOGLGP Source/boglgp/Source/OpenGL 3.0/chapter_13/ogro_invasion/src/glee/GLee.h
+terrain.h
+/media/OS/Users/luke/Desktop/BOGLGP Source/boglgp/Source/OpenGL 3.0/chapter_13/ogro_invasion/src/terrain.h
+example.h
+/media/OS/Users/luke/Desktop/BOGLGP Source/boglgp/Source/OpenGL 3.0/chapter_13/ogro_invasion/src/example.h
+GL/glu.h
+/media/OS/Users/luke/Desktop/BOGLGP Source/boglgp/Source/OpenGL 3.0/chapter_13/ogro_invasion/src/GL/glu.h
+glslshader.h
+/media/OS/Users/luke/Desktop/BOGLGP Source/boglgp/Source/OpenGL 3.0/chapter_13/ogro_invasion/src/glslshader.h
+
+/media/OS/Users/luke/Desktop/BOGLGP Source/boglgp/Source/OpenGL 3.0/chapter_13/ogro_invasion/src/terrain.h
+windows.h
+-
+string
+-
+vector
+-
+glee/GLee.h
+/media/OS/Users/luke/Desktop/BOGLGP Source/boglgp/Source/OpenGL 3.0/chapter_13/ogro_invasion/src/glee/GLee.h
+targa.h
+/media/OS/Users/luke/Desktop/BOGLGP Source/boglgp/Source/OpenGL 3.0/chapter_13/ogro_invasion/src/targa.h
+geom.h
+/media/OS/Users/luke/Desktop/BOGLGP Source/boglgp/Source/OpenGL 3.0/chapter_13/ogro_invasion/src/geom.h
+
+/media/OS/Users/luke/Desktop/BOGLGP Source/boglgp/Source/OpenGL 3.0/chapter_13/ogro_invasion/src/terraincollider.cpp
+windows.h
+-
+terraincollider.h
+/media/OS/Users/luke/Desktop/BOGLGP Source/boglgp/Source/OpenGL 3.0/chapter_13/ogro_invasion/src/terraincollider.h
+terrain.h
+/media/OS/Users/luke/Desktop/BOGLGP Source/boglgp/Source/OpenGL 3.0/chapter_13/ogro_invasion/src/terrain.h
+entity.h
+/media/OS/Users/luke/Desktop/BOGLGP Source/boglgp/Source/OpenGL 3.0/chapter_13/ogro_invasion/src/entity.h
+
+/media/OS/Users/luke/Desktop/BOGLGP Source/boglgp/Source/OpenGL 3.0/chapter_13/ogro_invasion/src/terraincollider.h
+collider.h
+/media/OS/Users/luke/Desktop/BOGLGP Source/boglgp/Source/OpenGL 3.0/chapter_13/ogro_invasion/src/collider.h
+
+/media/OS/Users/luke/Desktop/BOGLGP Source/boglgp/Source/OpenGL 3.0/chapter_13/ogro_invasion/src/tree.cpp
+windows.h
+-
+string
+-
+iostream
+-
+glee/GLee.h
+/media/OS/Users/luke/Desktop/BOGLGP Source/boglgp/Source/OpenGL 3.0/chapter_13/ogro_invasion/src/glee/GLee.h
+GL/glu.h
+-
+tree.h
+/media/OS/Users/luke/Desktop/BOGLGP Source/boglgp/Source/OpenGL 3.0/chapter_13/ogro_invasion/src/tree.h
+targa.h
+/media/OS/Users/luke/Desktop/BOGLGP Source/boglgp/Source/OpenGL 3.0/chapter_13/ogro_invasion/src/targa.h
+glslshader.h
+/media/OS/Users/luke/Desktop/BOGLGP Source/boglgp/Source/OpenGL 3.0/chapter_13/ogro_invasion/src/glslshader.h
+spherecollider.h
+/media/OS/Users/luke/Desktop/BOGLGP Source/boglgp/Source/OpenGL 3.0/chapter_13/ogro_invasion/src/spherecollider.h
+
+/media/OS/Users/luke/Desktop/BOGLGP Source/boglgp/Source/OpenGL 3.0/chapter_13/ogro_invasion/src/tree.h
+memory
+-
+glee/GLee.h
+/media/OS/Users/luke/Desktop/BOGLGP Source/boglgp/Source/OpenGL 3.0/chapter_13/ogro_invasion/src/glee/GLee.h
+entity.h
+/media/OS/Users/luke/Desktop/BOGLGP Source/boglgp/Source/OpenGL 3.0/chapter_13/ogro_invasion/src/entity.h
+
+/media/OS/Users/luke/Desktop/BOGLGP Source/boglgp/Source/OpenGL 3.0/chapter_13/ogro_invasion/src/uncopyable.h
+
+/media/OS/Users/luke/Desktop/BOGLGP Source/boglgp/Source/OpenGL 3.0/chapter_13/ogro_invasion/src/xkeyboardinterface.h
+cstring
+-
+keyboardinterface.h
+/media/OS/Users/luke/Desktop/BOGLGP Source/boglgp/Source/OpenGL 3.0/chapter_13/ogro_invasion/src/keyboardinterface.h
+
+/media/OS/Users/luke/Desktop/BOGLGP Source/boglgp/Source/OpenGL 3.0/chapter_13/ogro_invasion/src/xmouseinterface.h
+stdexcept
+-
+cassert
+-
+X11/Xlib.h
+-
+X11/Xutil.h
+-
+mouseinterface.h
+/media/OS/Users/luke/Desktop/BOGLGP Source/boglgp/Source/OpenGL 3.0/chapter_13/ogro_invasion/src/mouseinterface.h
+

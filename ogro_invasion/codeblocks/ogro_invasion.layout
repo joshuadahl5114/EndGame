@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_layout_file>
+	<ActiveTarget name="ogro_invasion" />
+	<File name="../../../../../../BOGLGP Source/boglgp/Source/OpenGL 3.0/chapter_13/ogro_invasion/src/example.cpp" open="1" top="0" tabpos="1">
+		<Cursor position="4878" topLine="139" />
+	</File>
+	<File name="../../../../../../BOGLGP Source/boglgp/Source/OpenGL 3.0/chapter_13/ogro_invasion/src/glxwindow.cpp" open="1" top="1" tabpos="2">
+		<Cursor position="888" topLine="5" />
+	</File>
+</CodeBlocks_layout_file>

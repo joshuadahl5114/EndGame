@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+   <FileVersion major="1" minor="6" />
+   <Project>
+      <Option title="ogro_invasion" />
+      <Option makefile_is_custom="1" />
+      <Option compiler="gcc" />
+      <Build>
+      <Target title="all">
+         <Option working_dir="/media/OS/Users/luke/Desktop/BOGLGP Source/boglgp/Source/OpenGL 3.0/chapter_13/ogro_invasion/codeblocks" />
+         <Option type="4" />
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/media/OS/Users/luke/Desktop/BOGLGP\ Source/boglgp/Source/OpenGL\ 3.0/chapter_13/ogro_invasion/codeblocks/Makefile&quot; all" />
+            <CompileFile command="/usr/bin/make -f &quot;/media/OS/Users/luke/Desktop/BOGLGP\ Source/boglgp/Source/OpenGL\ 3.0/chapter_13/ogro_invasion/codeblocks/Makefile&quot; &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/media/OS/Users/luke/Desktop/BOGLGP\ Source/boglgp/Source/OpenGL\ 3.0/chapter_13/ogro_invasion/codeblocks/Makefile&quot; clean" />
+            <DistClean command="/usr/bin/make -f &quot;/media/OS/Users/luke/Desktop/BOGLGP\ Source/boglgp/Source/OpenGL\ 3.0/chapter_13/ogro_invasion/codeblocks/Makefile&quot; clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="ogro_invasion">
+         <Option output="/media/OS/Users/luke/Desktop/BOGLGP Source/boglgp/Source/OpenGL 3.0/chapter_13/ogro_invasion/codeblocks/ogro_invasion" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/media/OS/Users/luke/Desktop/BOGLGP Source/boglgp/Source/OpenGL 3.0/chapter_13/ogro_invasion/codeblocks" />
+         <Option object_output="./" />
+         <Option type="1" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add directory="/media/OS/Users/luke/Desktop/BOGLGP Source/boglgp/Source/OpenGL 3.0/chapter_13/ogro_invasion/include" />
+            <Add directory="/usr/include/freetype2" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/media/OS/Users/luke/Desktop/BOGLGP\ Source/boglgp/Source/OpenGL\ 3.0/chapter_13/ogro_invasion/codeblocks/Makefile&quot; ogro_invasion" />
+            <CompileFile command="/usr/bin/make -f &quot;/media/OS/Users/luke/Desktop/BOGLGP\ Source/boglgp/Source/OpenGL\ 3.0/chapter_13/ogro_invasion/codeblocks/Makefile&quot; &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/media/OS/Users/luke/Desktop/BOGLGP\ Source/boglgp/Source/OpenGL\ 3.0/chapter_13/ogro_invasion/codeblocks/Makefile&quot; clean" />
+            <DistClean command="/usr/bin/make -f &quot;/media/OS/Users/luke/Desktop/BOGLGP\ Source/boglgp/Source/OpenGL\ 3.0/chapter_13/ogro_invasion/codeblocks/Makefile&quot; clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="ogro_invasion/fast">
+         <Option output="/media/OS/Users/luke/Desktop/BOGLGP Source/boglgp/Source/OpenGL 3.0/chapter_13/ogro_invasion/codeblocks/ogro_invasion" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/media/OS/Users/luke/Desktop/BOGLGP Source/boglgp/Source/OpenGL 3.0/chapter_13/ogro_invasion/codeblocks" />
+         <Option object_output="./" />
+         <Option type="1" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add directory="/media/OS/Users/luke/Desktop/BOGLGP Source/boglgp/Source/OpenGL 3.0/chapter_13/ogro_invasion/include" />
+            <Add directory="/usr/include/freetype2" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/media/OS/Users/luke/Desktop/BOGLGP\ Source/boglgp/Source/OpenGL\ 3.0/chapter_13/ogro_invasion/codeblocks/Makefile&quot; ogro_invasion/fast" />
+            <CompileFile command="/usr/bin/make -f &quot;/media/OS/Users/luke/Desktop/BOGLGP\ Source/boglgp/Source/OpenGL\ 3.0/chapter_13/ogro_invasion/codeblocks/Makefile&quot; &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/media/OS/Users/luke/Desktop/BOGLGP\ Source/boglgp/Source/OpenGL\ 3.0/chapter_13/ogro_invasion/codeblocks/Makefile&quot; clean" />
+            <DistClean command="/usr/bin/make -f &quot;/media/OS/Users/luke/Desktop/BOGLGP\ Source/boglgp/Source/OpenGL\ 3.0/chapter_13/ogro_invasion/codeblocks/Makefile&quot; clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="rebuild_cache">
+         <Option working_dir="/media/OS/Users/luke/Desktop/BOGLGP Source/boglgp/Source/OpenGL 3.0/chapter_13/ogro_invasion/codeblocks" />
+         <Option type="4" />
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/media/OS/Users/luke/Desktop/BOGLGP\ Source/boglgp/Source/OpenGL\ 3.0/chapter_13/ogro_invasion/codeblocks/Makefile&quot; rebuild_cache" />
+            <CompileFile command="/usr/bin/make -f &quot;/media/OS/Users/luke/Desktop/BOGLGP\ Source/boglgp/Source/OpenGL\ 3.0/chapter_13/ogro_invasion/codeblocks/Makefile&quot; &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/media/OS/Users/luke/Desktop/BOGLGP\ Source/boglgp/Source/OpenGL\ 3.0/chapter_13/ogro_invasion/codeblocks/Makefile&quot; clean" />
+            <DistClean command="/usr/bin/make -f &quot;/media/OS/Users/luke/Desktop/BOGLGP\ Source/boglgp/Source/OpenGL\ 3.0/chapter_13/ogro_invasion/codeblocks/Makefile&quot; clean" />
+         </MakeCommands>
+      </Target>
+      </Build>
+      <Unit filename="/media/OS/Users/luke/Desktop/BOGLGP Source/boglgp/Source/OpenGL 3.0/chapter_13/ogro_invasion/src/camera.cpp">
+      </Unit>
+      <Unit filename="/media/OS/Users/luke/Desktop/BOGLGP Source/boglgp/Source/OpenGL 3.0/chapter_13/ogro_invasion/src/collider.cpp">
+      </Unit>
+      <Unit filename="/media/OS/Users/luke/Desktop/BOGLGP Source/boglgp/Source/OpenGL 3.0/chapter_13/ogro_invasion/src/enemy.cpp">
+      </Unit>
+      <Unit filename="/media/OS/Users/luke/Desktop/BOGLGP Source/boglgp/Source/OpenGL 3.0/chapter_13/ogro_invasion/src/entity.cpp">
+      </Unit>
+      <Unit filename="/media/OS/Users/luke/Desktop/BOGLGP Source/boglgp/Source/OpenGL 3.0/chapter_13/ogro_invasion/src/example.cpp">
+      </Unit>
+      <Unit filename="/media/OS/Users/luke/Desktop/BOGLGP Source/boglgp/Source/OpenGL 3.0/chapter_13/ogro_invasion/src/explosion.cpp">
+      </Unit>
+      <Unit filename="/media/OS/Users/luke/Desktop/BOGLGP Source/boglgp/Source/OpenGL 3.0/chapter_13/ogro_invasion/src/freetypefont.cpp">
+      </Unit>
+      <Unit filename="/media/OS/Users/luke/Desktop/BOGLGP Source/boglgp/Source/OpenGL 3.0/chapter_13/ogro_invasion/src/frustum.cpp">
+      </Unit>
+      <Unit filename="/media/OS/Users/luke/Desktop/BOGLGP Source/boglgp/Source/OpenGL 3.0/chapter_13/ogro_invasion/src/gameworld.cpp">
+      </Unit>
+      <Unit filename="/media/OS/Users/luke/Desktop/BOGLGP Source/boglgp/Source/OpenGL 3.0/chapter_13/ogro_invasion/src/glee/GLee.c">
+      </Unit>
+      <Unit filename="/media/OS/Users/luke/Desktop/BOGLGP Source/boglgp/Source/OpenGL 3.0/chapter_13/ogro_invasion/src/glxwindow.cpp">
+      </Unit>
+      <Unit filename="/media/OS/Users/luke/Desktop/BOGLGP Source/boglgp/Source/OpenGL 3.0/chapter_13/ogro_invasion/src/landscape.cpp">
+      </Unit>
+      <Unit filename="/media/OS/Users/luke/Desktop/BOGLGP Source/boglgp/Source/OpenGL 3.0/chapter_13/ogro_invasion/src/main.cpp">
+      </Unit>
+      <Unit filename="/media/OS/Users/luke/Desktop/BOGLGP Source/boglgp/Source/OpenGL 3.0/chapter_13/ogro_invasion/src/md2model.cpp">
+      </Unit>
+      <Unit filename="/media/OS/Users/luke/Desktop/BOGLGP Source/boglgp/Source/OpenGL 3.0/chapter_13/ogro_invasion/src/ogro.cpp">
+      </Unit>
+      <Unit filename="/media/OS/Users/luke/Desktop/BOGLGP Source/boglgp/Source/OpenGL 3.0/chapter_13/ogro_invasion/src/player.cpp">
+      </Unit>
+      <Unit filename="/media/OS/Users/luke/Desktop/BOGLGP Source/boglgp/Source/OpenGL 3.0/chapter_13/ogro_invasion/src/rocket.cpp">
+      </Unit>
+      <Unit filename="/media/OS/Users/luke/Desktop/BOGLGP Source/boglgp/Source/OpenGL 3.0/chapter_13/ogro_invasion/src/spherecollider.cpp">
+      </Unit>
+      <Unit filename="/media/OS/Users/luke/Desktop/BOGLGP Source/boglgp/Source/OpenGL 3.0/chapter_13/ogro_invasion/src/targa.cpp">
+      </Unit>
+      <Unit filename="/media/OS/Users/luke/Desktop/BOGLGP Source/boglgp/Source/OpenGL 3.0/chapter_13/ogro_invasion/src/terrain.cpp">
+      </Unit>
+      <Unit filename="/media/OS/Users/luke/Desktop/BOGLGP Source/boglgp/Source/OpenGL 3.0/chapter_13/ogro_invasion/src/terraincollider.cpp">
+      </Unit>
+      <Unit filename="/media/OS/Users/luke/Desktop/BOGLGP Source/boglgp/Source/OpenGL 3.0/chapter_13/ogro_invasion/src/tree.cpp">
+      </Unit>
+   </Project>
+</CodeBlocks_project_file>
